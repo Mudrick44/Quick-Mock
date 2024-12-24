@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.laptop-mockup {
+  position: relative;
+  width: 840px; 
+  height: 480px; 
+  margin: 20px auto;
+  overflow: hidden; 
+}
+
+.laptop-frame {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.screenshot-image {
+  position: absolute;
+  top: 8px; 
+  left: 225px; 
+  width: calc(100% - 450px); 
+  height: calc(100% - 80px); 
+  object-fit: contain; 
+  pointer-events: none; 
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7fafc; 
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
